@@ -23,7 +23,7 @@
     },
     {
       "parameters": {
-        "url": "https://newsapi.org/v2/everything?q=technology+AI+software&language=en&pageSize=10&sortBy=publishedAt&apiKey=918cacef5b17479682521c44d7d2e2e9",
+        "url": "https://newsapi.org/v2/everything?q=technology+AI+software&language=en&pageSize=10&sortBy=publishedAt&apiKey=****",
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
@@ -84,7 +84,7 @@
     },
     {
       "parameters": {
-        "sendTo": "farajtamboli2001@gmail.com",
+        "sendTo": "aaa@gmail.com",
         "subject": "=🗞 Daily Tech News Digest — {{ new Date().toDateString() }}",
         "emailType": "text",
         "message": "={{ $json.message }}",
@@ -110,7 +110,7 @@
     },
     {
       "parameters": {
-        "sendTo": "farajtamboli2001@gmail.com",
+        "sendTo": "aaa@gmail.com",
         "subject": "⚠️ News Digest — No articles found today",
         "emailType": "text",
         "message": "={{ $json.message }}",
